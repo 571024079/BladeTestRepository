@@ -17,6 +17,8 @@
 		9B69225A1C89270D00E8D0BF /* PingAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6922591C89270D00E8D0BF /* PingAnimationUITests.m */; };
 		9B6922681C892E1900E8D0BF /* oen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6922671C892E1800E8D0BF /* oen.jpg */; };
 		9B69226A1C892E2000E8D0BF /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B6922691C892E2000E8D0BF /* two.jpg */; };
+		9B69226D1C893E3500E8D0BF /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69226C1C893E3500E8D0BF /* NavigationControllerDelegate.m */; };
+		9B6922701C893FBC00E8D0BF /* CircleTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69226F1C893FBC00E8D0BF /* CircleTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		9B69225B1C89270D00E8D0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B6922671C892E1800E8D0BF /* oen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oen.jpg; sourceTree = "<group>"; };
 		9B6922691C892E2000E8D0BF /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		9B69226B1C893E3500E8D0BF /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		9B69226C1C893E3500E8D0BF /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		9B69226E1C893FBC00E8D0BF /* CircleTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTransitionAnimator.h; sourceTree = "<group>"; };
+		9B69226F1C893FBC00E8D0BF /* CircleTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTransitionAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 				9B6922381C89270D00E8D0BF /* AppDelegate.m */,
 				9B69223A1C89270D00E8D0BF /* ViewController.h */,
 				9B69223B1C89270D00E8D0BF /* ViewController.m */,
+				9B69226B1C893E3500E8D0BF /* NavigationControllerDelegate.h */,
+				9B69226C1C893E3500E8D0BF /* NavigationControllerDelegate.m */,
+				9B69226E1C893FBC00E8D0BF /* CircleTransitionAnimator.h */,
+				9B69226F1C893FBC00E8D0BF /* CircleTransitionAnimator.m */,
 				9B69223D1C89270D00E8D0BF /* Main.storyboard */,
 				9B6922401C89270D00E8D0BF /* Assets.xcassets */,
 				9B6922421C89270D00E8D0BF /* LaunchScreen.storyboard */,
@@ -278,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B69226D1C893E3500E8D0BF /* NavigationControllerDelegate.m in Sources */,
 				9B69223C1C89270D00E8D0BF /* ViewController.m in Sources */,
 				9B6922391C89270D00E8D0BF /* AppDelegate.m in Sources */,
 				9B6922361C89270D00E8D0BF /* main.m in Sources */,
+				9B6922701C893FBC00E8D0BF /* CircleTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +518,7 @@
 				9B6922601C89270D00E8D0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B6922611C89270D00E8D0BF /* Build configuration list for PBXNativeTarget "PingAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				9B6922631C89270D00E8D0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B6922641C89270D00E8D0BF /* Build configuration list for PBXNativeTarget "PingAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +536,7 @@
 				9B6922661C89270D00E8D0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
