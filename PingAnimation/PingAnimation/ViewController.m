@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
@@ -18,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+//    UIBezierPath *circleMaskPathInitial = [UIBezierPath bezierPathWithOvalInRect:_button.frame];
+//    CGPoint extremePoint = CGPointMake(_button.center.x, _button.center.y - CGRectGetHeight(self.view.bounds));
+//    
+//    CGFloat radius = sqrt((extremePoint.x*extremePoint.x) + (extremePoint.y*extremePoint.y));
+//    
+//    UIBezierPath *circleMaskFinal = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(_button.frame, -radius, -radius)];
+//    UIView *view = [[UIView alloc] initWithFrame:CGRectInset(_button.frame, -radius, -radius)];
+//    view.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:view];
+    
 }
 - (IBAction)circleTapAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];

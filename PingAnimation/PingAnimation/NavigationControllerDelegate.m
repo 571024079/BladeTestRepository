@@ -7,12 +7,23 @@
 //
 
 #import "NavigationControllerDelegate.h"
+#import "CircleTransitionAnimator.h"
 
 @implementation NavigationControllerDelegate
 
+//- (instancetype)init
+//{
+//    self = [super init];
+//    
+//    if (self) {
+//        _cirTrans = [[CircleTransitionAnimator alloc] init];
+//    }
+//    return self;
+//}
+
 - (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
 {
-    return nil;
+    return  [[CircleTransitionAnimator alloc] init];
 }
 
 @end

@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "CircleTransitionAnimator.h"
 
 @interface NavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
-
+@property (nonatomic, strong) CircleTransitionAnimator *cirTrans;
 @end
