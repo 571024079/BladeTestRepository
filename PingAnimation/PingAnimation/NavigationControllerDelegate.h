@@ -12,4 +12,6 @@
 
 @interface NavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
 @property (nonatomic, strong) CircleTransitionAnimator *cirTrans;
+@property (nonatomic, weak) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, strong) UIPercentDrivenInteractiveTransition *interactionController;
 @end
