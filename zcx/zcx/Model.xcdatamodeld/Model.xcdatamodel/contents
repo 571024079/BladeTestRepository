@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="Child" representedClassName="Child" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toys" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="child_father" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Father" inverseName="father_child" inverseEntity="Father" syncable="YES"/>
+        <relationship name="child_toys" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Toys" inverseName="toys_child" inverseEntity="Toys" syncable="YES"/>
+    </entity>
+    <entity name="Father" representedClassName="Father" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="children" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="father_child" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Child" inverseName="child_father" inverseEntity="Child" syncable="YES"/>
+        <relationship name="father_grandepa" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Grandepa" inverseName="grandepa_father" inverseEntity="Grandepa" syncable="YES"/>
+    </entity>
+    <entity name="Grandepa" representedClassName="Grandepa" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sons" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="grandepa_father" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Father" inverseName="father_grandepa" inverseEntity="Father" syncable="YES"/>
+    </entity>
+    <entity name="Toys" representedClassName="Toys" syncable="YES">
+        <attribute name="cost" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="toys_child" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Child" inverseName="child_toys" inverseEntity="Child" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Grandepa" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Father" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="Child" positionX="-45" positionY="0" width="128" height="120"/>
+        <element name="Toys" positionX="-36" positionY="9" width="128" height="75"/>
+    </elements>
+</model>

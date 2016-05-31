@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="CpositemsModel" representedClassName="CpositemsModel" syncable="YES">
+        <attribute name="badPhotoCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cgoodphotoid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cgoodphotoprourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cgoodphotourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cguideid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cguideimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cguideremark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cpartid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cpbcnt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="cbadphotos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetailModel" inverseName="relationship" inverseEntity="DetailModel" syncable="YES"/>
+        <relationship name="clist" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ListCoredataModel" inverseName="relationship" inverseEntity="ListCoredataModel" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Ncb015CoredataModel" inverseName="cpositems" inverseEntity="Ncb015CoredataModel" syncable="YES"/>
+    </entity>
+    <entity name="DetailModel" representedClassName="DetailModel" syncable="YES">
+        <attribute name="badImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ccirrciid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="checkresultid" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="checkresultitems" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="goodphotoid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pbflg" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoid1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photomasterurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoprourl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoremark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photourl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CpositemsModel" inverseName="cbadphotos" inverseEntity="CpositemsModel" syncable="YES"/>
+    </entity>
+    <entity name="FastCheckModel" representedClassName="FastCheckModel" syncable="YES">
+        <attribute name="cstatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cstatusid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ncb015list" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Ncb015CoredataModel" inverseName="relationship" inverseEntity="Ncb015CoredataModel" syncable="YES"/>
+    </entity>
+    <entity name="ListCoredataModel" representedClassName="ListCoredataModel" syncable="YES">
+        <attribute name="cid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CpositemsModel" inverseName="clist" inverseEntity="CpositemsModel" syncable="YES"/>
+    </entity>
+    <entity name="Ncb015CoredataModel" representedClassName="Ncb015CoredataModel" syncable="YES">
+        <attribute name="cposid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cposname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pbcnt" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cpositems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CpositemsModel" inverseName="relationship" inverseEntity="CpositemsModel" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="FastCheckModel" inverseName="ncb015list" inverseEntity="FastCheckModel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CpositemsModel" positionX="-1442" positionY="-306" width="128" height="268"/>
+        <element name="DetailModel" positionX="-1001" positionY="-445" width="128" height="238"/>
+        <element name="FastCheckModel" positionX="-1782" positionY="-126" width="128" height="103"/>
+        <element name="ListCoredataModel" positionX="-983" positionY="-36" width="128" height="103"/>
+        <element name="Ncb015CoredataModel" positionX="-1611" positionY="-126" width="128" height="120"/>
+    </elements>
+</model>
