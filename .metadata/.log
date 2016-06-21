@@ -3452,3 +3452,19 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2016-06-14 15:10:57.794 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Handlecar/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Handlecar/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.equinox.ds 2 0 2016-06-14 15:11:32.198
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@5659bb55; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2016-06-14 15:11:32.279
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.ui.trace did not complete in 30000 ms 
+
+!ENTRY org.eclipse.core.net 1 0 2016-06-14 15:12:00.781
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

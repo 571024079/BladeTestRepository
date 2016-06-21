@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ves-PB-VhU" customClass="FatherView">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhZ-NQ-Y9y">
+                                        <rect key="frame" x="217" y="256" width="166" height="88"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.89019607840000003" green="0.45098039220000002" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5h-5O-EZz"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CiT-lE-LKt">
+                                        <rect key="frame" x="50" y="300" width="143" height="128"/>
+                                        <color key="backgroundColor" red="0.33333333329999998" green="0.64705882349999999" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.96862745100000003" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ves-PB-VhU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GJi-lW-6Iy"/>
+                            <constraint firstItem="Ves-PB-VhU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JNx-IM-uCn"/>
+                            <constraint firstItem="Ves-PB-VhU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lz8-FK-Wt0"/>
+                            <constraint firstItem="Ves-PB-VhU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.25" id="jt4-GV-m8h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301" y="434"/>
+        </scene>
+    </scenes>
+</document>
