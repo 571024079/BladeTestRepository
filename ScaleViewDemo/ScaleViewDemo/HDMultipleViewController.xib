@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HDMultipleViewController">
+            <connections>
+                <outlet property="collectionView" destination="AIV-Xp-kIF" id="33d-og-9t7"/>
+                <outlet property="contentView" destination="RT5-Gj-OlK" id="ewZ-zv-hWs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RT5-Gj-OlK">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AIV-Xp-kIF">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oge-V1-F0L">
+                                <size key="itemSize" width="200" height="200"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AIV-Xp-kIF" secondAttribute="trailing" id="4kJ-Iu-49s"/>
+                        <constraint firstItem="AIV-Xp-kIF" firstAttribute="leading" secondItem="RT5-Gj-OlK" secondAttribute="leading" id="Cvp-dR-EEA"/>
+                        <constraint firstAttribute="bottom" secondItem="AIV-Xp-kIF" secondAttribute="bottom" id="Kwm-84-hBO"/>
+                        <constraint firstItem="AIV-Xp-kIF" firstAttribute="top" secondItem="RT5-Gj-OlK" secondAttribute="top" id="PVg-Ri-h0b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RT5-Gj-OlK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1W3-7B-6RB"/>
+                <constraint firstAttribute="trailing" secondItem="RT5-Gj-OlK" secondAttribute="trailing" id="Qxx-OV-Agy"/>
+                <constraint firstItem="RT5-Gj-OlK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pmt-v0-vS7"/>
+                <constraint firstAttribute="bottom" secondItem="RT5-Gj-OlK" secondAttribute="bottom" id="rEC-Ah-4C3"/>
+            </constraints>
+            <point key="canvasLocation" x="665" y="200"/>
+        </view>
+    </objects>
+</document>
