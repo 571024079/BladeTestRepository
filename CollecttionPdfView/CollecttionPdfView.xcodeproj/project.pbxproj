@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4907F1021DFD539700DDF605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F1011DFD539700DDF605 /* main.m */; };
+		4907F1051DFD539700DDF605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F1041DFD539700DDF605 /* AppDelegate.m */; };
+		4907F1081DFD539700DDF605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F1071DFD539700DDF605 /* ViewController.m */; };
+		4907F10B1DFD539700DDF605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4907F1091DFD539700DDF605 /* Main.storyboard */; };
+		4907F10D1DFD539700DDF605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4907F10C1DFD539700DDF605 /* Assets.xcassets */; };
+		4907F1101DFD539700DDF605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4907F10E1DFD539700DDF605 /* LaunchScreen.storyboard */; };
+		4907F11B1DFD539700DDF605 /* CollecttionPdfViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F11A1DFD539700DDF605 /* CollecttionPdfViewTests.m */; };
+		4907F1261DFD539700DDF605 /* CollecttionPdfViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F1251DFD539700DDF605 /* CollecttionPdfViewUITests.m */; };
+		4907F1381DFD562A00DDF605 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907F1371DFD562A00DDF605 /* TiledPDFView.m */; };
+		4907F13A1DFD56F000DDF605 /* input_pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4907F1391DFD56F000DDF605 /* input_pdf.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4907F1171DFD539700DDF605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4907F0F51DFD539700DDF605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4907F0FC1DFD539700DDF605;
+			remoteInfo = CollecttionPdfView;
+		};
+		4907F1221DFD539700DDF605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4907F0F51DFD539700DDF605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4907F0FC1DFD539700DDF605;
+			remoteInfo = CollecttionPdfView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4907F0FD1DFD539700DDF605 /* CollecttionPdfView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollecttionPdfView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4907F1011DFD539700DDF605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4907F1031DFD539700DDF605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4907F1041DFD539700DDF605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4907F1061DFD539700DDF605 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4907F1071DFD539700DDF605 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4907F10A1DFD539700DDF605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4907F10C1DFD539700DDF605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4907F10F1DFD539700DDF605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4907F1111DFD539700DDF605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4907F1161DFD539700DDF605 /* CollecttionPdfViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollecttionPdfViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4907F11A1DFD539700DDF605 /* CollecttionPdfViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollecttionPdfViewTests.m; sourceTree = "<group>"; };
+		4907F11C1DFD539700DDF605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4907F1211DFD539700DDF605 /* CollecttionPdfViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollecttionPdfViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4907F1251DFD539700DDF605 /* CollecttionPdfViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollecttionPdfViewUITests.m; sourceTree = "<group>"; };
+		4907F1271DFD539700DDF605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4907F1361DFD562A00DDF605 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		4907F1371DFD562A00DDF605 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		4907F1391DFD56F000DDF605 /* input_pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = input_pdf.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4907F0FA1DFD539700DDF605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F1131DFD539700DDF605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F11E1DFD539700DDF605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4907F0F41DFD539700DDF605 = {
+			isa = PBXGroup;
+			children = (
+				4907F0FF1DFD539700DDF605 /* CollecttionPdfView */,
+				4907F1191DFD539700DDF605 /* CollecttionPdfViewTests */,
+				4907F1241DFD539700DDF605 /* CollecttionPdfViewUITests */,
+				4907F0FE1DFD539700DDF605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4907F0FE1DFD539700DDF605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4907F0FD1DFD539700DDF605 /* CollecttionPdfView.app */,
+				4907F1161DFD539700DDF605 /* CollecttionPdfViewTests.xctest */,
+				4907F1211DFD539700DDF605 /* CollecttionPdfViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4907F0FF1DFD539700DDF605 /* CollecttionPdfView */ = {
+			isa = PBXGroup;
+			children = (
+				4907F1031DFD539700DDF605 /* AppDelegate.h */,
+				4907F1041DFD539700DDF605 /* AppDelegate.m */,
+				4907F1061DFD539700DDF605 /* ViewController.h */,
+				4907F1071DFD539700DDF605 /* ViewController.m */,
+				4907F1091DFD539700DDF605 /* Main.storyboard */,
+				4907F1361DFD562A00DDF605 /* TiledPDFView.h */,
+				4907F1371DFD562A00DDF605 /* TiledPDFView.m */,
+				4907F1391DFD56F000DDF605 /* input_pdf.pdf */,
+				4907F10C1DFD539700DDF605 /* Assets.xcassets */,
+				4907F10E1DFD539700DDF605 /* LaunchScreen.storyboard */,
+				4907F1111DFD539700DDF605 /* Info.plist */,
+				4907F1001DFD539700DDF605 /* Supporting Files */,
+			);
+			path = CollecttionPdfView;
+			sourceTree = "<group>";
+		};
+		4907F1001DFD539700DDF605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4907F1011DFD539700DDF605 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4907F1191DFD539700DDF605 /* CollecttionPdfViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4907F11A1DFD539700DDF605 /* CollecttionPdfViewTests.m */,
+				4907F11C1DFD539700DDF605 /* Info.plist */,
+			);
+			path = CollecttionPdfViewTests;
+			sourceTree = "<group>";
+		};
+		4907F1241DFD539700DDF605 /* CollecttionPdfViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4907F1251DFD539700DDF605 /* CollecttionPdfViewUITests.m */,
+				4907F1271DFD539700DDF605 /* Info.plist */,
+			);
+			path = CollecttionPdfViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4907F0FC1DFD539700DDF605 /* CollecttionPdfView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4907F12A1DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfView" */;
+			buildPhases = (
+				4907F0F91DFD539700DDF605 /* Sources */,
+				4907F0FA1DFD539700DDF605 /* Frameworks */,
+				4907F0FB1DFD539700DDF605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollecttionPdfView;
+			productName = CollecttionPdfView;
+			productReference = 4907F0FD1DFD539700DDF605 /* CollecttionPdfView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4907F1151DFD539700DDF605 /* CollecttionPdfViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4907F12D1DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfViewTests" */;
+			buildPhases = (
+				4907F1121DFD539700DDF605 /* Sources */,
+				4907F1131DFD539700DDF605 /* Frameworks */,
+				4907F1141DFD539700DDF605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4907F1181DFD539700DDF605 /* PBXTargetDependency */,
+			);
+			name = CollecttionPdfViewTests;
+			productName = CollecttionPdfViewTests;
+			productReference = 4907F1161DFD539700DDF605 /* CollecttionPdfViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4907F1201DFD539700DDF605 /* CollecttionPdfViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4907F1301DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfViewUITests" */;
+			buildPhases = (
+				4907F11D1DFD539700DDF605 /* Sources */,
+				4907F11E1DFD539700DDF605 /* Frameworks */,
+				4907F11F1DFD539700DDF605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4907F1231DFD539700DDF605 /* PBXTargetDependency */,
+			);
+			name = CollecttionPdfViewUITests;
+			productName = CollecttionPdfViewUITests;
+			productReference = 4907F1211DFD539700DDF605 /* CollecttionPdfViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4907F0F51DFD539700DDF605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ais;
+				TargetAttributes = {
+					4907F0FC1DFD539700DDF605 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4907F1151DFD539700DDF605 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4907F0FC1DFD539700DDF605;
+					};
+					4907F1201DFD539700DDF605 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4907F0FC1DFD539700DDF605;
+					};
+				};
+			};
+			buildConfigurationList = 4907F0F81DFD539700DDF605 /* Build configuration list for PBXProject "CollecttionPdfView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4907F0F41DFD539700DDF605;
+			productRefGroup = 4907F0FE1DFD539700DDF605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4907F0FC1DFD539700DDF605 /* CollecttionPdfView */,
+				4907F1151DFD539700DDF605 /* CollecttionPdfViewTests */,
+				4907F1201DFD539700DDF605 /* CollecttionPdfViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4907F0FB1DFD539700DDF605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4907F1101DFD539700DDF605 /* LaunchScreen.storyboard in Resources */,
+				4907F10D1DFD539700DDF605 /* Assets.xcassets in Resources */,
+				4907F13A1DFD56F000DDF605 /* input_pdf.pdf in Resources */,
+				4907F10B1DFD539700DDF605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F1141DFD539700DDF605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F11F1DFD539700DDF605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4907F0F91DFD539700DDF605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4907F1081DFD539700DDF605 /* ViewController.m in Sources */,
+				4907F1051DFD539700DDF605 /* AppDelegate.m in Sources */,
+				4907F1381DFD562A00DDF605 /* TiledPDFView.m in Sources */,
+				4907F1021DFD539700DDF605 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F1121DFD539700DDF605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4907F11B1DFD539700DDF605 /* CollecttionPdfViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4907F11D1DFD539700DDF605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4907F1261DFD539700DDF605 /* CollecttionPdfViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4907F1181DFD539700DDF605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4907F0FC1DFD539700DDF605 /* CollecttionPdfView */;
+			targetProxy = 4907F1171DFD539700DDF605 /* PBXContainerItemProxy */;
+		};
+		4907F1231DFD539700DDF605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4907F0FC1DFD539700DDF605 /* CollecttionPdfView */;
+			targetProxy = 4907F1221DFD539700DDF605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4907F1091DFD539700DDF605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4907F10A1DFD539700DDF605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4907F10E1DFD539700DDF605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4907F10F1DFD539700DDF605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4907F1281DFD539700DDF605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4907F1291DFD539700DDF605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4907F12B1DFD539700DDF605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollecttionPdfView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4907F12C1DFD539700DDF605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollecttionPdfView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4907F12E1DFD539700DDF605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollecttionPdfViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollecttionPdfView.app/CollecttionPdfView";
+			};
+			name = Debug;
+		};
+		4907F12F1DFD539700DDF605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollecttionPdfViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollecttionPdfView.app/CollecttionPdfView";
+			};
+			name = Release;
+		};
+		4907F1311DFD539700DDF605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollecttionPdfViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollecttionPdfView;
+			};
+			name = Debug;
+		};
+		4907F1321DFD539700DDF605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollecttionPdfViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ais.CollecttionPdfViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollecttionPdfView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4907F0F81DFD539700DDF605 /* Build configuration list for PBXProject "CollecttionPdfView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4907F1281DFD539700DDF605 /* Debug */,
+				4907F1291DFD539700DDF605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4907F12A1DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4907F12B1DFD539700DDF605 /* Debug */,
+				4907F12C1DFD539700DDF605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4907F12D1DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4907F12E1DFD539700DDF605 /* Debug */,
+				4907F12F1DFD539700DDF605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4907F1301DFD539700DDF605 /* Build configuration list for PBXNativeTarget "CollecttionPdfViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4907F1311DFD539700DDF605 /* Debug */,
+				4907F1321DFD539700DDF605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4907F0F51DFD539700DDF605 /* Project object */;
+}
