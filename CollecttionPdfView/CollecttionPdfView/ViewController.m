@@ -32,7 +32,7 @@
     _pdfViews = [NSMutableArray array];
     
     for (NSInteger i = 0; i < self.numberOfPages; i++)
-    {
+    {  
         TiledPDFView *pdfView = [[TiledPDFView alloc] initWithFrame:CGRectMake(0, 0, 374, 667) scale:0.5];
         pdfView.tag = 100;
         pdfView.pdfPage = CGPDFDocumentGetPage( self.pdf, i + 1 );
