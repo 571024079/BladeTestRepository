@@ -11,9 +11,13 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
      
-        if ([@"abc" compare:@"abcd"])
+        if ([@"abc" compare:@"abcd"] == NSOrderedAscending)
         {
             NSLog(@"dddd");
+        }
+        else   if ([@"abc" compare:@"abcd"] == NSOrderedSame)
+        {
+            NSLog(@"aaa");
         }
         else
         {
