@@ -1,0 +1,35 @@
+//
+//  ViewController.m
+//  B_APP
+//
+//  Created by Handlecar on 2017/3/7.
+//  Copyright © 2017年 handlecar. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+
+}
+
+- (IBAction)backToAPPA:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"APPA://ABCdd"] options:@{@"key":@222} completionHandler:^(BOOL success) {
+        NSLog(@"已经打开");
+    }];
+}
+
+@end
