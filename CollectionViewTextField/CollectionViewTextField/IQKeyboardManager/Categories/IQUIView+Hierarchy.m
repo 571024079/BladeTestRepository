@@ -129,7 +129,7 @@
 -(BOOL)_IQcanBecomeFirstResponder
 {
     [self _setIsAskingCanBecomeFirstResponder:YES];
-    BOOL _IQcanBecomeFirstResponder = ([self canBecomeFirstResponder] && [self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]  && ![self isSearchBarTextField]);
+    BOOL _IQcanBecomeFirstResponder = (([self isTextField] || [self isTextView] || [self becomeFirstResponder]) && [self isUserInteractionEnabled] && ![self isHidden] && [self alpha]!=0.0 && ![self isAlertViewTextField]  && ![self isSearchBarTextField]);
     
     if (_IQcanBecomeFirstResponder == YES)
     {
@@ -319,6 +319,31 @@
         UISearchBarTextFieldClass           = NSClassFromString(@"UISearchBarTextField");
     });
     return ([self isKindOfClass:UISearchBarTextFieldClass] || [self isKindOfClass:[UISearchBar class]]);
+}
+
+- (BOOL)isTextField
+{
+    if ([self isKindOfClass:[UITextField class]])
+    {
+        UITextField *textField = (UITextField *)self;
+        if (textField.enabled && textField.userInteractionEnabled)
+        {
+            return YES;
+        }
+    }
+    return NO;
+}
+- (BOOL)isTextView
+{
+    if ([self isKindOfClass:[UITextView class]])
+    {
+        UITextView *textField = (UITextView *)self;
+        if (textField.isEditable && textField.userInteractionEnabled)
+        {
+            return YES;
+        }
+    }
+    return NO;
 }
 
 -(BOOL)isAlertViewTextField

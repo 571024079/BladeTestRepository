@@ -58,13 +58,14 @@
 }
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
-    NSLog(@"textFieldShouldBeginEditing %@",textField);
-    if (textField == _checkStaffNameTF) {
-        [self showChooseBottomNameWithTF:textField];
-        return NO;
-    }else {
-        return YES;
-    }
+//    NSLog(@"textFieldShouldBeginEditing %@ \n",textField);
+//    if (textField == _checkStaffNameTF) {
+//        [self showChooseBottomNameWithTF:textField];
+//        return NO;
+//    }else {
+//        return YES;
+//    }
+    return YES;
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
