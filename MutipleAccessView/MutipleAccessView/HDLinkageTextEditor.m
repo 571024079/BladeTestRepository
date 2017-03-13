@@ -10,7 +10,8 @@
 #import "LinkageTextField.h"
 
 #define FONTSIZE  14
-#define SPACE     5
+#define SPACE     0
+#define TOP_SPACE 0
 
 @interface HDLinkageTextEditor ()<UITextFieldDelegate,LinkageTextFieldDelegate>
 @property (nonatomic, strong) NSMutableArray *textFields;
@@ -37,19 +38,26 @@
 - (void)configView
 {
 
-    CGFloat textFieldWidth = 60;
+    CGFloat textFieldWidth = CGRectGetWidth(self.bounds) / self.textParts;
     self.textFields = [NSMutableArray array];
     for (NSInteger i = 0; i < self.textParts; i++)
     {
-        LinkageTextField *textField = [[LinkageTextField alloc] initWithFrame:CGRectMake( i * (textFieldWidth + SPACE), SPACE, textFieldWidth, CGRectGetHeight(self.bounds) - SPACE * 2)];
+        LinkageTextField *textField = [[LinkageTextField alloc] initWithFrame:CGRectMake( i * (textFieldWidth + SPACE), TOP_SPACE, textFieldWidth, CGRectGetHeight(self.bounds) - TOP_SPACE * 2)];
         textField.keyboardType = UIKeyboardTypeNumberPad;
-        textField.borderStyle = UITextBorderStyleRoundedRect;
+        textField.borderStyle = UITextBorderStyleNone;
         textField.font = [UIFont systemFontOfSize:FONTSIZE];
         textField.delegate = self;
         textField.linkageDelegate = self;
         textField.returnKeyType = UIReturnKeyDone;
         [self addSubview:textField];
         [self.textFields addObject:textField];
+    }
+    
+    for (NSInteger i = 0; i < self.textParts - 1; i ++)
+    {
+        UIView *line = [[UIView alloc] initWithFrame:CGRectMake( (i+1) * (textFieldWidth), 0, 1, CGRectGetHeight(self.bounds))];
+        line.backgroundColor = [UIColor darkGrayColor];
+        [self addSubview:line];
     }
 }
 

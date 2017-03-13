@@ -1,0 +1,9 @@
+
+
+这个demo主要是实现app运行期间浮动显示icon的小项目
+
+//本次demo主要成果
+
+1.AppDelegate的window，即keyWindow 设置rootViewController后，rootViewController的view并没有立即加入到 keywindow的subViews里，也不是在viewDidLoad时加到viewSubviews，而是在viewDidAppear时，才能在keyvindow中看到。（使用 debug view hierarchy 查看window视图层级）；所以如果在rootViewController的viewDidLoad上往keywindow上添加视图被遮挡住。
+
+2，在更换rootViewController的时候，keywindow上的其他子视图，会被遮挡住。

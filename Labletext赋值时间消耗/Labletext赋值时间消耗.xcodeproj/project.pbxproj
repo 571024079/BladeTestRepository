@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BA5E7641E7257E3006F8213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7631E7257E3006F8213 /* main.m */; };
+		9BA5E7671E7257E3006F8213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7661E7257E3006F8213 /* AppDelegate.m */; };
+		9BA5E76A1E7257E3006F8213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7691E7257E3006F8213 /* ViewController.m */; };
+		9BA5E76D1E7257E3006F8213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5E76B1E7257E3006F8213 /* Main.storyboard */; };
+		9BA5E76F1E7257E3006F8213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5E76E1E7257E3006F8213 /* Assets.xcassets */; };
+		9BA5E7721E7257E3006F8213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5E7701E7257E3006F8213 /* LaunchScreen.storyboard */; };
+		9BA5E77D1E7257E3006F8213 /* Labletext______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E77C1E7257E3006F8213 /* Labletext______Tests.m */; };
+		9BA5E7881E7257E3006F8213 /* Labletext______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7871E7257E3006F8213 /* Labletext______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BA5E7791E7257E3006F8213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA5E7571E7257E3006F8213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA5E75E1E7257E3006F8213;
+			remoteInfo = "Labletext赋值时间消耗";
+		};
+		9BA5E7841E7257E3006F8213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA5E7571E7257E3006F8213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA5E75E1E7257E3006F8213;
+			remoteInfo = "Labletext赋值时间消耗";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BA5E75F1E7257E3006F8213 /* Labletext赋值时间消耗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labletext赋值时间消耗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA5E7631E7257E3006F8213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BA5E7651E7257E3006F8213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BA5E7661E7257E3006F8213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BA5E7681E7257E3006F8213 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BA5E7691E7257E3006F8213 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BA5E76C1E7257E3006F8213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BA5E76E1E7257E3006F8213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BA5E7711E7257E3006F8213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BA5E7731E7257E3006F8213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA5E7781E7257E3006F8213 /* Labletext赋值时间消耗Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Labletext赋值时间消耗Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA5E77C1E7257E3006F8213 /* Labletext______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Labletext______Tests.m"; sourceTree = "<group>"; };
+		9BA5E77E1E7257E3006F8213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA5E7831E7257E3006F8213 /* Labletext赋值时间消耗UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Labletext赋值时间消耗UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA5E7871E7257E3006F8213 /* Labletext______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Labletext______UITests.m"; sourceTree = "<group>"; };
+		9BA5E7891E7257E3006F8213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA5E75C1E7257E3006F8213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E7751E7257E3006F8213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E7801E7257E3006F8213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA5E7561E7257E3006F8213 = {
+			isa = PBXGroup;
+			children = (
+				9BA5E7611E7257E3006F8213 /* Labletext赋值时间消耗 */,
+				9BA5E77B1E7257E3006F8213 /* Labletext赋值时间消耗Tests */,
+				9BA5E7861E7257E3006F8213 /* Labletext赋值时间消耗UITests */,
+				9BA5E7601E7257E3006F8213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA5E7601E7257E3006F8213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5E75F1E7257E3006F8213 /* Labletext赋值时间消耗.app */,
+				9BA5E7781E7257E3006F8213 /* Labletext赋值时间消耗Tests.xctest */,
+				9BA5E7831E7257E3006F8213 /* Labletext赋值时间消耗UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BA5E7611E7257E3006F8213 /* Labletext赋值时间消耗 */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5E7651E7257E3006F8213 /* AppDelegate.h */,
+				9BA5E7661E7257E3006F8213 /* AppDelegate.m */,
+				9BA5E7681E7257E3006F8213 /* ViewController.h */,
+				9BA5E7691E7257E3006F8213 /* ViewController.m */,
+				9BA5E76B1E7257E3006F8213 /* Main.storyboard */,
+				9BA5E76E1E7257E3006F8213 /* Assets.xcassets */,
+				9BA5E7701E7257E3006F8213 /* LaunchScreen.storyboard */,
+				9BA5E7731E7257E3006F8213 /* Info.plist */,
+				9BA5E7621E7257E3006F8213 /* Supporting Files */,
+			);
+			path = "Labletext赋值时间消耗";
+			sourceTree = "<group>";
+		};
+		9BA5E7621E7257E3006F8213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5E7631E7257E3006F8213 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BA5E77B1E7257E3006F8213 /* Labletext赋值时间消耗Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5E77C1E7257E3006F8213 /* Labletext______Tests.m */,
+				9BA5E77E1E7257E3006F8213 /* Info.plist */,
+			);
+			path = "Labletext赋值时间消耗Tests";
+			sourceTree = "<group>";
+		};
+		9BA5E7861E7257E3006F8213 /* Labletext赋值时间消耗UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5E7871E7257E3006F8213 /* Labletext______UITests.m */,
+				9BA5E7891E7257E3006F8213 /* Info.plist */,
+			);
+			path = "Labletext赋值时间消耗UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA5E75E1E7257E3006F8213 /* Labletext赋值时间消耗 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA5E78C1E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗" */;
+			buildPhases = (
+				9BA5E75B1E7257E3006F8213 /* Sources */,
+				9BA5E75C1E7257E3006F8213 /* Frameworks */,
+				9BA5E75D1E7257E3006F8213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Labletext赋值时间消耗";
+			productName = "Labletext赋值时间消耗";
+			productReference = 9BA5E75F1E7257E3006F8213 /* Labletext赋值时间消耗.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA5E7771E7257E3006F8213 /* Labletext赋值时间消耗Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA5E78F1E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗Tests" */;
+			buildPhases = (
+				9BA5E7741E7257E3006F8213 /* Sources */,
+				9BA5E7751E7257E3006F8213 /* Frameworks */,
+				9BA5E7761E7257E3006F8213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA5E77A1E7257E3006F8213 /* PBXTargetDependency */,
+			);
+			name = "Labletext赋值时间消耗Tests";
+			productName = "Labletext赋值时间消耗Tests";
+			productReference = 9BA5E7781E7257E3006F8213 /* Labletext赋值时间消耗Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA5E7821E7257E3006F8213 /* Labletext赋值时间消耗UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA5E7921E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗UITests" */;
+			buildPhases = (
+				9BA5E77F1E7257E3006F8213 /* Sources */,
+				9BA5E7801E7257E3006F8213 /* Frameworks */,
+				9BA5E7811E7257E3006F8213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA5E7851E7257E3006F8213 /* PBXTargetDependency */,
+			);
+			name = "Labletext赋值时间消耗UITests";
+			productName = "Labletext赋值时间消耗UITests";
+			productReference = 9BA5E7831E7257E3006F8213 /* Labletext赋值时间消耗UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA5E7571E7257E3006F8213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = handlecar;
+				TargetAttributes = {
+					9BA5E75E1E7257E3006F8213 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7G496US846;
+						ProvisioningStyle = Automatic;
+					};
+					9BA5E7771E7257E3006F8213 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7G496US846;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA5E75E1E7257E3006F8213;
+					};
+					9BA5E7821E7257E3006F8213 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7G496US846;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BA5E75E1E7257E3006F8213;
+					};
+				};
+			};
+			buildConfigurationList = 9BA5E75A1E7257E3006F8213 /* Build configuration list for PBXProject "Labletext赋值时间消耗" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA5E7561E7257E3006F8213;
+			productRefGroup = 9BA5E7601E7257E3006F8213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA5E75E1E7257E3006F8213 /* Labletext赋值时间消耗 */,
+				9BA5E7771E7257E3006F8213 /* Labletext赋值时间消耗Tests */,
+				9BA5E7821E7257E3006F8213 /* Labletext赋值时间消耗UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA5E75D1E7257E3006F8213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5E7721E7257E3006F8213 /* LaunchScreen.storyboard in Resources */,
+				9BA5E76F1E7257E3006F8213 /* Assets.xcassets in Resources */,
+				9BA5E76D1E7257E3006F8213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E7761E7257E3006F8213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E7811E7257E3006F8213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA5E75B1E7257E3006F8213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5E76A1E7257E3006F8213 /* ViewController.m in Sources */,
+				9BA5E7671E7257E3006F8213 /* AppDelegate.m in Sources */,
+				9BA5E7641E7257E3006F8213 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E7741E7257E3006F8213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5E77D1E7257E3006F8213 /* Labletext______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA5E77F1E7257E3006F8213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5E7881E7257E3006F8213 /* Labletext______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA5E77A1E7257E3006F8213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA5E75E1E7257E3006F8213 /* Labletext赋值时间消耗 */;
+			targetProxy = 9BA5E7791E7257E3006F8213 /* PBXContainerItemProxy */;
+		};
+		9BA5E7851E7257E3006F8213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA5E75E1E7257E3006F8213 /* Labletext赋值时间消耗 */;
+			targetProxy = 9BA5E7841E7257E3006F8213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BA5E76B1E7257E3006F8213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA5E76C1E7257E3006F8213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BA5E7701E7257E3006F8213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BA5E7711E7257E3006F8213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BA5E78A1E7257E3006F8213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA5E78B1E7257E3006F8213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA5E78D1E7257E3006F8213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BA5E78E1E7257E3006F8213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BA5E7901E7257E3006F8213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Labletext赋值时间消耗.app/Labletext赋值时间消耗";
+			};
+			name = Debug;
+		};
+		9BA5E7911E7257E3006F8213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Labletext赋值时间消耗.app/Labletext赋值时间消耗";
+			};
+			name = Release;
+		};
+		9BA5E7931E7257E3006F8213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Labletext赋值时间消耗";
+			};
+			name = Debug;
+		};
+		9BA5E7941E7257E3006F8213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7G496US846;
+				INFOPLIST_FILE = "Labletext赋值时间消耗UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlecar.Labletext------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Labletext赋值时间消耗";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA5E75A1E7257E3006F8213 /* Build configuration list for PBXProject "Labletext赋值时间消耗" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5E78A1E7257E3006F8213 /* Debug */,
+				9BA5E78B1E7257E3006F8213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA5E78C1E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5E78D1E7257E3006F8213 /* Debug */,
+				9BA5E78E1E7257E3006F8213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA5E78F1E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5E7901E7257E3006F8213 /* Debug */,
+				9BA5E7911E7257E3006F8213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BA5E7921E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA5E7931E7257E3006F8213 /* Debug */,
+				9BA5E7941E7257E3006F8213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA5E7571E7257E3006F8213 /* Project object */;
+}

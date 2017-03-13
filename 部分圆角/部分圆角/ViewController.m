@@ -28,8 +28,6 @@
     self.view.backgroundColor = [UIColor greenColor];
     label.layer.mask = shap;
     
-    UIScrollView *scro;
-    scro.contentInset
 }
 
 - (void)didReceiveMemoryWarning {

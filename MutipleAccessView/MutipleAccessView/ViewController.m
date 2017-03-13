@@ -28,8 +28,9 @@
 //    [button becomeFirstResponder];
 //    
 //    [self.view addSubview:button];
-    HDLinkageTextEditor *linkAge = [HDLinkageTextEditor linkageTextEditorWithTextParts:4 borderStyle:UITextBorderStyleRoundedRect textLengthLimit:3 frame:CGRectMake(100, 100, 300, 40)];
+    HDLinkageTextEditor *linkAge = [HDLinkageTextEditor linkageTextEditorWithTextParts:4 borderStyle:UITextBorderStyleRoundedRect textLengthLimit:3 frame:CGRectMake(100, 100, 154, 27)];
 //    linkAge.frame = CGRectMake(100, 100, 300, 40);
+    linkAge.backgroundColor = [UIColor blueColor];
     [self.view addSubview:linkAge];
     
 }
