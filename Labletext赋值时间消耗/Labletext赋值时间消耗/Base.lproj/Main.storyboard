@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kr-2a-axm">
-                                <rect key="frame" x="112" y="198" width="124" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kr-2a-axm" customClass="MyLabel">
+                                <rect key="frame" x="16" y="198" width="300" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="N6V-kt-wth"/>
-                                    <constraint firstAttribute="width" constant="124" id="mni-eR-845"/>
+                                    <constraint firstAttribute="width" constant="300" id="mni-eR-845"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -50,7 +50,7 @@
                             <constraint firstItem="pTI-0i-P9J" firstAttribute="top" secondItem="1kr-2a-axm" secondAttribute="bottom" constant="184" id="EUA-ua-0dX"/>
                             <constraint firstItem="1kr-2a-axm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="178" id="N4W-8u-0MO"/>
                             <constraint firstItem="pTI-0i-P9J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="Sfc-8x-Ulf"/>
-                            <constraint firstItem="1kr-2a-axm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="qIf-g1-Fia"/>
+                            <constraint firstItem="1kr-2a-axm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qIf-g1-Fia"/>
                         </constraints>
                     </view>
                     <connections>

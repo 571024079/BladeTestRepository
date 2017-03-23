@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49D93FC11E81A1F30029A3C9 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D93FC01E81A1F30029A3C9 /* MyLabel.m */; };
 		9BA5E7641E7257E3006F8213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7631E7257E3006F8213 /* main.m */; };
 		9BA5E7671E7257E3006F8213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7661E7257E3006F8213 /* AppDelegate.m */; };
 		9BA5E76A1E7257E3006F8213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5E7691E7257E3006F8213 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49D93FBF1E81A1F30029A3C9 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		49D93FC01E81A1F30029A3C9 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 		9BA5E75F1E7257E3006F8213 /* Labletext赋值时间消耗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labletext赋值时间消耗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA5E7631E7257E3006F8213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BA5E7651E7257E3006F8213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				9BA5E7661E7257E3006F8213 /* AppDelegate.m */,
 				9BA5E7681E7257E3006F8213 /* ViewController.h */,
 				9BA5E7691E7257E3006F8213 /* ViewController.m */,
+				49D93FBF1E81A1F30029A3C9 /* MyLabel.h */,
+				49D93FC01E81A1F30029A3C9 /* MyLabel.m */,
 				9BA5E76B1E7257E3006F8213 /* Main.storyboard */,
 				9BA5E76E1E7257E3006F8213 /* Assets.xcassets */,
 				9BA5E7701E7257E3006F8213 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				9BA5E76A1E7257E3006F8213 /* ViewController.m in Sources */,
 				9BA5E7671E7257E3006F8213 /* AppDelegate.m in Sources */,
+				49D93FC11E81A1F30029A3C9 /* MyLabel.m in Sources */,
 				9BA5E7641E7257E3006F8213 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				9BA5E78E1E7257E3006F8213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BA5E78F1E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				9BA5E7911E7257E3006F8213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BA5E7921E7257E3006F8213 /* Build configuration list for PBXNativeTarget "Labletext赋值时间消耗UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				9BA5E7941E7257E3006F8213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
