@@ -24,9 +24,22 @@
     NSBlockOperation *op1 = [NSBlockOperation blockOperationWithBlock:^{
         NSLog(@"task0---%@", [NSThread currentThread]);
     }];
-    [op1 start];
+    [op1 start];//
     
 }
 
+
+- (void)vie1wDidLoad {
+    
+    NSInvocationOperation *op = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(task) object:nil];
+    // 调用start方法执行操作op操作
+    [op start];
+    
+    NSBlockOperation *op1 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"task0---%@", [NSThread currentThread]);
+    }];
+    [op1 start];
+    
+}
 
 @end
