@@ -11,11 +11,17 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
      
-        if ([@"abc" compare:@"abcd"] == NSOrderedAscending)
+        if ([@"abc" compare:@"abc"] == NSOrderedAscending) // 不是升序
         {
             NSLog(@"dddd");
         }
-        else   if ([@"abc" compare:@"abcd"] == NSOrderedSame)
+        
+        if ([@"abc" compare:@"abcd"] == NSOrderedAscending) // 是升序
+        {
+            NSLog(@"zzzz");
+        }
+        
+        if ([@"abc" compare:@"abcd"] == NSOrderedSame)   // 不相等
         {
             NSLog(@"aaa");
         }
